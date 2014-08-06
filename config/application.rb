@@ -21,5 +21,10 @@ module Theline
     # config.i18n.default_locale = :de
     #
     config.i18n.enforce_available_locales = true
+
+    # Default e-mail address which will be shown in the "from" devise emails, initializers/devise.rb,
+    config.noreply = 'noreply@theline-tt.herokuapp.com'
+
+    config.host = 'localhost:5000'
   end
 end

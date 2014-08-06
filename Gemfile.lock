@@ -61,6 +61,7 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
+    addressable (2.3.6)
     arel (5.0.1.20140414130214)
     ast (2.0.0)
     awesome_nested_set (3.0.0)
@@ -134,6 +135,10 @@ GEM
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    launchy (2.4.2)
+      addressable (~> 2.3)
+    letter_opener (1.2.0)
+      launchy (~> 2.2)
     libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -321,6 +326,7 @@ DEPENDENCIES
   factory_girl_rails
   foreman
   jquery-rails
+  letter_opener
   pg
   rails (= 4.1.4)
   rspec-rails
