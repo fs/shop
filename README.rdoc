@@ -1,0 +1,39 @@
+Theline
+-
+
+Third-party service badges (if available)
+[![Code Climate](https://codeclimate.com/github/fs/rails-base.png)](https://codeclimate.com/github/fs/rails-base)
+
+[![Semaphore](https://semaphoreapp.com/api/v1/projects/31b68af8b073708a56e4e005bbcba2af4802816d/76140/badge.png)](https://semaphoreapp.com/projects/2742)
+Project description.
+
+Dependencies
+-
+- PostgreSQL 9.3
+  - `brew install postgres`
+- Ruby 2.1.2
+  - `rbenv install 2.1.2`
+- Rails 4.1.4
+
+Quick Start
+-
+
+Clone this repo:
+
+```
+git clone git@github.com:assembledbrands/theline_warehouse.git
+cd theline_warehouse
+```
+
+Run bootstrap script
+
+```
+bin/bootstrap
+```
+
+Scripts
+-
+
+* `bin/bootstrap` - setup required gems and migrate db if needed
+* `bin/quality` - run brakeman and rails_best_practices for the app
+* `bin/ci` - should be used in the CI to run specs
