@@ -77,6 +77,10 @@ GEM
     ast (2.0.0)
     awesome_nested_set (3.0.0)
       activerecord (>= 4.0.0, < 5)
+    aws (2.10.2)
+      http_connection
+      uuidtools
+      xml-simple
     aws-sdk (1.27.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
@@ -141,6 +145,7 @@ GEM
     fssm (0.2.10)
     highline (1.6.21)
     hike (1.2.3)
+    http_connection (1.4.4)
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -340,11 +345,13 @@ GEM
       tzinfo
     warden (1.2.3)
       rack (>= 1.0)
+    xml-simple (1.1.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws
   coffee-rails (~> 4.0.0)
   dotenv-rails
   factory_girl_rails

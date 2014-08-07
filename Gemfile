@@ -12,6 +12,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer',  platforms: :ruby
 gem 'uglifier', '>= 1.3.0'
 
+gem 'aws'
+
 gem 'spree', '2.3.1'
 
 gem 'spree_gateway',
