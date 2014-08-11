@@ -1,11 +1,5 @@
-Theline
+Fs shop
 -
-
-Third-party service badges (if available)
-[![Code Climate](https://codeclimate.com/github/fs/rails-base.png)](https://codeclimate.com/github/fs/rails-base)
-
-[![Semaphore](https://semaphoreapp.com/api/v1/projects/31b68af8b073708a56e4e005bbcba2af4802816d/76140/badge.png)](https://semaphoreapp.com/projects/2742)
-Project description.
 
 Dependencies
 -
@@ -21,8 +15,8 @@ Quick Start
 Clone this repo:
 
 ```
-git clone git@github.com:assembledbrands/theline_warehouse.git
-cd theline_warehouse
+git clone git@github.com:fs/shop.git
+cd shop
 ```
 
 Run bootstrap script
